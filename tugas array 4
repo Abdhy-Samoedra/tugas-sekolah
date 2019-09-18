@@ -1,0 +1,15 @@
+package array;
+public class multidimensi2 {
+
+    public static void main(String args[]) {
+        int nis[][] = {{210651}, {210651}, {210652}};
+        String nama[][] = {{"Ade"}, {"Galih "}, {"Baihaqi"}};
+        System.out.println("Identitas Siswa Angkatan 24");
+ for (int i = 0; i < nama.length; i++) {
+            for (int j = 0; j < 1; j++) {
+                System.out.println(nama[i][j] +":"+nis[i][j]);
+ }
+ }
+ }
+ 
+}
